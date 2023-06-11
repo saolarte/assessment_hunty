@@ -1,8 +1,6 @@
-
-
 Simple app to send and receive messages using Telegram Bot API
 
-The app is set up to respond using a bot with the following ID: @santiagoassist_bot
+The app is set up to respond using a Telegram bot with the following ID: @santiagoassist_bot
 
 The service consists of the following endpoints:
 
@@ -16,3 +14,12 @@ POST /messages: Sends a message to Telegram API. Body should look like the follo
     "message": "Hello"
 }
 
+
+
+How to run the app?
+- Install dependencies
+    pipenv install
+- Start virtual environment
+    pipenv shell
+- Run the app
+    python main.py
